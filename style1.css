@@ -1,0 +1,1224 @@
+/* .navi h1 class is for kayylas that is on the page at the top most left */
+.navi h1{
+    display: inline;
+    padding-right: 30%;
+    padding-left: 12%;
+    color: white;
+    
+    
+}
+
+@media screen and (max-width: 1000px){
+    .navi{
+        padding-right: 15%;
+        justify-content: center;
+        width: 100%;
+
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .navi h1{
+        padding-right: 15%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+
+
+    }
+
+}
+
+/* .nav a is for all the anchor tags and for their styling */
+
+.navi a{
+    margin: 1.5%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font: bold;
+    font-size: large;
+    position: relative;
+    
+
+}
+/* this .navi a::after is for the giving them the attributes of when they were hover  */
+.navi a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+/* this is also for hovering */
+.navi a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+
+
+/* this h1 span is to turn the dot in the end of kayllas red */
+.navi h1 span{
+    color: red;
+
+}
+
+/* this top left is to get the text at the top left on the image and for styling */
+.navi .topleft{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 100px;
+    padding-left: 3%;
+    padding-top: 0;
+    
+}
+
+@media screen and (max-width: 1375px){
+    .navi h1{
+        padding-right: 15%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1065px){
+    .navi h1{
+        padding-right: 5%;
+        margin: 1%;
+
+
+    }
+
+}
+@media screen and (max-width: 925px){
+    .navi a{
+        margin: 1%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 850px){
+    .navi h1{
+        padding-left: 5%;
+
+
+    }
+
+}
+
+@media screen and (max-width: 765px){
+    .navi a{
+        margin: 0.2%;
+
+
+    }
+
+} 
+.navi .centertext{
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navi .centertext center{
+    color: lightyellow;
+    font-size: 36px;
+    font-weight: 2000;
+    font: bolder;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+ 
+    
+    
+}
+.navi .paracent{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.navi .paracent center{
+    color: lightyellow;
+    font-size: 13px;
+    width: 50%;
+    padding-left: 26%;
+}
+
+.navi .button .btn button{
+    margin: 0.5%;
+    background-color: transparent;
+    width: 120px;
+    height: 35px;;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color:white;
+    margin-left: 42%;
+    top: 51%;
+    position: absolute;
+    border-radius:  5px;
+    border-color: darkred;
+    
+
+
+}
+.navi .button .btn2 button{
+    margin: 0.5%;
+    background-color: transparent;
+    width: 120px;
+    height: 35px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 50.5%;
+    top: 51%;
+    
+    border-radius: 5px;
+    border-color: darkred;
+    position: absolute;
+
+
+}
+.navi .button .btn button:hover{
+    font-size: 0.9rem;
+    background-color: black;
+}
+.navi .button .btn2 button:hover{
+    font-size: 0.7rem;
+    background-color: black;
+}
+/* above is all the first section in which header links and button and structure of the page is */
+
+/* 2nd section */
+
+.threebox_container .box1{
+    width: 22%;
+    background-color: darkred;
+    padding: 1.2%;
+    top: -81.5px;
+    position: relative;
+    margin-left: 14%;
+    border-radius: 10px;
+    
+}
+
+
+.threebox_container .box1_icon img{
+    width: 15%;
+   
+    margin-top: 11% ;
+    margin-left: 11%;
+
+}
+.threebox_container .box1_head{
+    margin-left: 11.5%;
+    color: white;
+}
+
+.threebox_container .box1_line{
+    width: 20%;
+    margin-left: 11.5%;
+   
+
+}
+.threebox_container .box1_para{
+    width: 70%;
+    margin-left: 11.5%;
+    margin-top: 7%;
+    color: white;
+    margin-bottom: 11% ;
+   
+
+}
+.threebox_container{
+    display: flexbox;
+    height: 350px;
+}
+
+.threebox_container .box2{
+    width: 22%;
+    background-color: rgb(44, 45, 45);
+    padding: 1.2%;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 39%;
+    top: -550px;
+    border-radius: 10px;
+    
+}
+
+
+.threebox_container .box2_icon img{
+    width: 15%;
+   
+    margin-top: 11% ;
+    margin-left: 11%;
+
+}
+.threebox_container .box2_head{
+    margin-left: 11.5%;
+    color: white;
+}
+
+.threebox_container .box2_line{
+    width: 20%;
+    margin-left: 11.5%;
+   
+
+}
+.threebox_container .box2_para{
+    width: 70%;
+    margin-left: 11.5%;
+    margin-top: 7%;
+    color: white;
+    margin-bottom: 11% ;
+   
+
+}
+
+.threebox_container .box3{
+    width: 22%;
+    background-color: rgb(35, 17, 17);
+    padding: 1.2%;
+    position: relative;
+    
+    margin-left: 64%;
+    top: -943.5px;
+    border-radius: 10px;
+    
+}
+
+
+.threebox_container .box3_icon img{
+    width: 15%;
+   
+    margin-top: 11% ;
+    margin-left: 11%;
+
+}
+.threebox_container .box3_head{
+    margin-left: 11.5%;
+    color: white;
+}
+
+.threebox_container .box3_line{
+    width: 20%;
+    margin-left: 11.5%;
+   
+
+}
+.threebox_container .box3_para{
+    width: 70%;
+    margin-left: 11.5%;
+    margin-top: 7%;
+    color: white;
+    margin-bottom: 11% ;
+   
+
+}
+
+
+/* section 3 */
+
+.serv h4{
+    margin-top: -10px;
+    color: darkred;
+    margin-left: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sect_3_head h1{
+    margin-left: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sect_3_head h1 span{
+    color: darkred;
+}
+
+.sect_3_para p{
+    margin-left: 1%;
+    width: 27%;
+    margin-bottom: 5%;
+}
+
+/* six section */
+
+.six_section .sect1_icon img{
+    width: 3%;
+    margin-left: 23%;
+}
+.six_section .sect1_head h3{
+    margin-left: 22.2%;
+}
+
+.six_section .sect1_para p{
+    margin-left: 17%;
+    width: 15%;
+    text-align: center;
+}
+
+/* sect2 */
+
+.six_section .sect2_icon img{
+    width: 4.5%;
+    margin-left: 23%;
+}
+.six_section .sect2_head h3{
+    margin-left: 21%;
+}
+
+.six_section .sect2_para p{
+    margin-left: 16.5%;
+    width: 19%;
+    text-align: center;
+}
+
+.six_section .sect2{
+    margin-left: 35%;
+    top: -184px;
+    position: relative;
+}
+
+/* section 3 */
+
+.six_section .sect3_icon img{
+    width: 10.5%;
+    margin-left: 23%;
+}
+.six_section .sect3_head h3{
+    margin-left: 19%;
+    
+}
+
+.six_section .sect3_para p{
+    margin-left: 7%;
+    width: 45%;
+    text-align: center;
+}
+
+.six_section .sect3{
+    margin-left: 70%;
+    top: -365px;
+    position: relative;
+}
+
+/* section 4 */
+
+.six_section .sect4_icon img{
+    width: 3.5%;
+    margin-left: 23%;
+}
+.six_section .sect4_head h3{
+    margin-left: 21.5%;
+}
+
+.six_section .sect4_para p{
+    margin-left: 17%;
+    width: 15%;
+    text-align: center;
+}
+.six_section .sect4{
+    top: -300px;
+    position: relative;
+}
+
+/* section 5 */
+
+.six_section .sect5_icon img{
+    width: 4.5%;
+    margin-left: 23%;
+}
+.six_section .sect5_head h3{
+    margin-left: 21%;
+}
+
+.six_section .sect5_para p{
+    margin-left: 16.5%;
+    width: 19%;
+    text-align: center;
+}
+
+.six_section .sect5{
+    margin-left: 35%;
+    top: -477px;
+    position: relative;
+}
+
+/* six section */
+
+.six_section .sect6_icon img{
+    width: 10.5%;
+    margin-left: 23%;
+}
+.six_section .sect6_head h3{
+    margin-left: 17.5%;
+}
+
+.six_section .sect6_para p{
+    margin-left: 7%;
+    width: 45%;
+    text-align: center;
+}
+
+.six_section .sect6{
+    margin-left: 70%;
+    top: -655px;
+    position: relative;
+}
+
+.six_section{
+    display: flexbox;
+    height: 500px;
+}
+
+
+
+
+/* section 4  */
+
+
+.largebox {
+    width: 1430px;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: 60px;
+    
+    background-image: linear-gradient(180deg, darkgray,rgb(72, 71, 71));
+}
+
+.largebox .lbhead h1{
+    width: 450px;
+    padding-top: 100px;
+    margin-left: 15%;
+    background-color: none;
+    color: white;
+    
+}
+
+.two_image {
+    display: flex;
+    align-items: stretch;
+    margin-left: 60%;
+    
+    position: relative;
+    top: -100px;
+  
+    
+}
+.two_image .firstimg{
+    margin-right: 5%;
+}
+
+
+.largebox .lb_para{
+    width: 380px;
+    background-color: none;
+    position: relative;
+    color: white;
+    top: -300px;
+    margin-left: 15%;
+    text-align: left;
+    margin-bottom: 3%;
+
+}
+
+.largebox .lb_btn .but button{
+    margin: 0.5%;
+    background-color: transparent;
+    width: 160px;
+    height: 40px;;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    color: white;
+    margin-left: 15%;
+    top: -300px;
+    position: relative;
+    border-radius: solid 30px;
+    border-color: white;
+}
+.largebox .lb_btn .but button:hover{
+    font-size: 0.9rem;
+    background-color: black;
+}
+
+
+/* section 5 */
+
+
+/* box1 */
+
+.services .para1head{
+    width: 200px;
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16.8%;
+    font-weight: 800;
+    filter: brightness(60);
+}
+
+.services .para1{
+    width: 250px;
+    justify-content: left;
+    /* background-color: blue; */
+    margin-left: 16.8%;
+    color: rgb(72, 71, 71);
+}
+
+/* box2 */
+
+.services .para2head{
+    width: 200px;
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16.8%;
+    font-weight: 800;
+    filter: brightness(60);
+}
+
+.services .para2{
+    width: 250px;
+    justify-content: left;
+    /* background-color: blue; */
+    margin-left: 16.8%;
+    color: rgb(72, 71, 71);
+}
+
+.services .paratwo{
+    margin-left: 24.5%;
+    position: relative;
+    top: -116px;
+}
+
+/* box 3 */
+
+.services .para3head{
+    width: 200px;
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16.8%;
+    font-weight: 800;
+    filter: brightness(60);
+}
+
+.services .para3{
+    width: 250px;
+    justify-content: left;
+    /* background-color: blue; */
+    margin-left: 16.8%;
+    color: rgb(72, 71, 71);
+}
+
+.services .parathree{
+    margin-left: 0%;
+ 
+    position: relative;
+    top: -75px;
+}
+/* box 4 */
+
+.services .para4head{
+    width: 200px;
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16.8%;
+    font-weight: 800;
+    filter: brightness(60);
+}
+
+.services .para4{
+    width: 250px;
+    justify-content: left;
+    /* background-color: blue; */
+    margin-left: 16.8%;
+    color: rgb(72, 71, 71);
+}
+
+.services .parafour{
+   
+    margin-left: 24.5%;
+    position: relative;
+    top: -192px;
+}
+
+/* box 5 */
+
+.services .para5head{
+    width: 450px;
+  
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 58%;
+    filter: brightness(60);
+}
+
+.services .para5a{
+    width: 450px;
+    margin-left: 58%;
+    color: rgb(72, 71, 71);
+  
+}
+
+.services .para5b{
+   
+    width: 450px;
+    margin-left: 58%;
+    margin-top: 2%;
+    color: rgb(72, 71, 71);
+
+}
+
+.services .parafive{
+    top: -470px;
+    position: relative;
+}
+
+.services{
+    padding-top: 6%;
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+    margin-left: 40px;
+    margin-right: 32px;
+    margin-bottom: 8%;
+}
+
+
+/* section 6 */
+
+.links a{
+    text-decoration: none;
+    color: rgb(133, 128, 128);
+    margin: 2.5%;
+    font-size: smaller;
+    left: 23%;
+    position: relative;
+    font-weight: 700;
+    
+}
+
+.links a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+
+.links a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+.links{
+    margin-bottom: 3%;
+}
+
+/* section 7 */
+
+
+.eightpics{
+    display: flex;
+    align-items: stretch;
+    margin-left: 40px;
+    flex-direction: row;
+    
+
+}
+
+.eightpics .pic1 img{
+    width: 350px;
+    height: 285px;
+}
+
+.eightpics .pic2 img{
+    width: 350px;
+    height: 285px;
+}
+
+.eightpics .pic3 img{
+    width: 350px;
+    height: 285px;
+}
+
+.eightpics .pic4 img{
+    width: 350px;
+    height: 285px;
+}
+.eightpics .pic1{
+    margin-right: 0.5%;
+}
+.eightpics .pic2{
+    margin-right: 0.5%;
+}
+.eightpics .pic3{
+    margin-right: 0.5%;
+}
+.eightpics .pic4{
+    margin-right: 0.5%;
+}
+
+
+/* section 8 */
+
+.video .videohead h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    filter: brightness(20);
+    padding-top: 5%;
+    margin-left: 17.5%;
+}
+
+.video .videopara p{
+    width: 420px;
+    color: rgb(72, 71, 71);
+    margin-top: 3%;
+    margin-left: 17.5%;
+
+}
+
+.video .videobtn button{
+    margin: 0.5%;
+    background-color: transparent;
+    width: 160px;
+    height: 40px;;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    color: black;
+    margin-left: 17.5%;
+    margin-top: 2.5%;
+    position: relative;
+    border-radius: solid 30px;
+    border-color: black;
+}
+
+.video .videobtn button:hover{
+    font-size: 0.9rem;
+    background-color: rgb(198, 193, 193);
+}
+
+.video .videovideo{
+    position: relative;
+    margin-left: 60%;
+    top: -320px;
+    
+}
+
+.video{
+    height: 500px;
+    background-color: none;
+}
+
+/* section 9 */
+
+.logos{
+    width: 1420px;
+    margin-left: 40px;
+    height: 450px;
+    background-color: rgb(44, 46, 46);
+
+}
+
+.logos .complogo img{
+    padding-top: 1.5%;
+    image-resolution: from-image;
+    image-resolution: 300dpi;
+    image-orientation: none;
+    image-orientation: from-image;
+    
+
+}
+
+.logos .logohead h1{
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 3000;
+    position: relative;
+    margin-left: 59%;
+    top: -350px;
+    color: white;
+    text-align: right;
+}
+
+.logos .logopara p{
+    width: 400px;
+    text-align: right;
+    margin-left: 62%;
+    top: -325px;
+    position: relative;
+    font-weight: 150;
+    color: white;
+}
+
+/* section 10 */
+
+.sect10{
+    width: 1420px;
+    margin-left: 40px;
+    height: 580px;
+    background-color: rgb(243, 245, 245)
+
+}
+
+.sect10 .sect10head h1{
+    width: 380px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 15%;
+    padding-top: 6%;
+}
+
+.sect10 .sect10para{
+    width: 380px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    margin-left: 15%;
+    color: rgb(72, 71, 71);
+ 
+}
+
+
+
+.sect10 .sect10data img{
+    width: 60px;
+    margin-top: 2.5%;
+    margin-left: 15%;
+}
+.sect10 .sect10data h4{
+    margin-left: 15%;
+    color: rgb(72, 71, 71);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sect10 .sect10data p{
+    margin-left: 15%;
+    width: 230px;
+    font-size: small;
+    color: rgb(72, 71, 71);
+}
+
+
+.sect10 .sect10frame img{
+    width: 60px;
+    margin-left: 15%;
+}
+
+.sect10 .sect10frame h4{
+    margin-left: 15%;
+    color: rgb(72, 71, 71);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sect10 .sect10frame p{
+    margin-left: 15%;
+    width: 230px;
+    font-size: small;
+    color: rgb(72, 71, 71);
+}
+.sect10 .sect10frame{
+    margin-left: 22%;
+    top: -193px;
+    position: relative;
+}
+
+.sect10 .sect10img img{
+    width: 600px;
+    height: 580px;
+
+}
+
+.sect10 .sect10img{
+    margin-left: 55%;
+    position: relative;
+    top: -681.5px;
+    opacity: 85%;
+    filter: brightness(90%);
+    
+}
+
+
+/* section 11 */
+
+.sect11 .sect11head h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+    text-align: right;
+    font-size: xx-large;
+    
+}
+
+
+.sect11 .sect11para p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(72, 71, 71);
+    width: 350px;
+    text-align: right;
+}
+
+.sect11 .sect11head{
+    padding-top: 7%;
+    margin-left: 20%;
+}
+
+.sect11 .sect11para{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+
+/* form section */
+
+.sect11 .sect11form .name input{
+    border-radius: solid 12px;
+    margin-left: 50%;
+    position: relative;
+    top: -305px;
+    border: solid;
+    width: 500px;
+    height: 35px;
+    border-color: rgb(72, 71, 71);
+    
+}
+
+.sect11 .sect11form .name input::placeholder{
+    padding-left: 2.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+.sect11 .sect11form .company input{
+    border-radius: solid 12px;
+    margin-left: 50%;
+    position: relative;
+    top: -290px;
+    border: solid;
+    width: 240px;
+    height: 35px;
+    border-color: rgb(72, 71, 71);
+    display: inline;
+}
+
+.sect11 .sect11form .company input::placeholder{
+    padding-left: 2.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+
+.sect11 .sect11form .email input{
+    border-radius: solid 12px;
+    margin-left: 67.25%;
+    position: relative;
+    top: -332px;
+    border: solid;
+    width: 240px;
+    height: 35px;
+    border-color: rgb(72, 71, 71);
+    display: inline;
+}
+
+.sect11 .sect11form .email input::placeholder{
+    padding-left: 2.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+.sect11 .sect11form .select select{
+    border-radius: solid 12px;
+    margin-left: 50%;
+    position: relative;
+    top: -317px;
+    border: solid;
+    width: 507.7px;
+    height: 43px;
+    border-color: rgb(72, 71, 71);
+    display: inline;
+}
+
+.sect11 .sect11form .select select::after{
+    padding-left: 2.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+
+.sect11 .sect11form .formpara input{
+    border-radius: solid 12px;
+    margin-left: 50%;
+    position: relative;
+    top: -300px;
+    border: solid;
+    width: 500px;
+    height: 250px;
+    border-color: rgb(72, 71, 71);
+    display: inline;
+}
+
+.sect11 .sect11form .formpara input::placeholder{
+    padding-left: 2.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    
+   
+    
+}
+
+.sect11 .sect11form .formbtn{
+    text-align: center;
+    top: -200px;
+    position: relative;
+    
+}
+
+.sect11 .sect11form .formbtn button{
+    width: 950px;
+    margin-left: 4.25%;
+    height: 45px;
+    
+    border-radius: solid 30px;
+    border-color: white;
+    background-color: rgb(232, 80, 80);
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+}
+
+.sect11 .sect11form .formbtn button:hover{
+    font-size: 1rem;
+    background-color: black;
+}
+
+/* lasst section */
+
+
+.lastsec{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(44, 46, 46);
+    
+    
+}
+.lastsec .head{
+    padding-top: 3%;
+}
+
+.lastsec .head a{
+    margin: 1.5%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font: bold;
+    font-size: large;
+    position: relative;
+}
+
+.lastsec .head h1{
+    display: inline;
+    padding-right: 30%;
+    padding-left: 12%;
+    color: white;
+}
+.lastsec .head h1 span{
+    color: red;
+}
+
+.lastsec .head a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+
+}
+/* this is also for hovering */
+.lastsec .head a:hover::after{
+    transform: scale(1);
+    transform-origin: bottom left;
+}
+
+.lastsec .contact .conthead h4{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.lastsec .contact ,.conthead p{
+    width: 350px;
+    color: rgb(237, 227, 227);
+}
+
+.lastsec .contact{
+    margin-left: 12%;
+    margin-top: 6%;
+}
+
+.lastsec .social a{
+    margin: 1%;
+    
+}
+
+.lastsec .social{
+    margin-top: 9%;
+    margin-left: 12%;
+}
+
+.lastsec .sub h4{
+    color: white;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lastsec .sub{
+    margin-left: 79%;
+    top: -270px;
+    position: relative;
+}
+
+.lastsec .lastform .emailform input{
+    display: inline;
+    margin-left: 50%;
+    position: relative;
+    top: -200px;
+}
+
+.lastsec .lastform .btnlast button{
+    position: relative;
+    top: -200px;
+}
